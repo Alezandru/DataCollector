@@ -10,7 +10,7 @@ public class DataCollectorSteps {
     DataCollectorPage page;
 
     @Step
-    public String getNumberOfTableRows(){
-        return page.getNumberOfTableRows();
+    public void pageIsOpen() {
+        page.open();
     }
 }
